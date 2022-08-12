@@ -1,0 +1,14 @@
+{% extends '../base/nav.html' %}
+
+{% block title %}
+    Income Tracker
+{% endblock title %}
+
+{% block content %}
+    <div class="container">
+        <div class="inner">
+            <h4 style="text-align:center;" class="quote">Too many people spend money they haven't earned</h4>
+            <a href="{% url 'analyseResult' %}"><button>Predict my Income</button></a>
+        </div>
+    </div>
+{% endblock content %}
